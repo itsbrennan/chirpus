@@ -1,0 +1,119 @@
+body {
+	background: #F9FAFD;
+	margin: 32px auto;
+	padding: 32px;
+
+}
+
+a {
+	font-family: 'avenir', san-serif;
+	font-size: 1em;
+	color: #4C4C4C;
+}
+
+.header{
+	padding: 32px;
+	display: inline;
+
+}
+
+.logo {
+
+	font-family: 'avenir', san-serif;
+	display: inline;
+}
+
+.logo a{
+	text-decoration: none;
+	margin:0 auto;
+}
+
+.nav{
+		
+}
+
+nav li{
+
+	display: inline;
+	padding: 16px;
+	position: relative;
+	list-style: none;
+
+}
+
+nav li a{
+	text-decoration: none;
+	font-family: 'avenir', san-serif;
+}
+
+
+.primary_btn{
+
+	text-decoration: none;
+	font-family: 'avenir', san-serif;
+	font-size: 16px;
+	background-color: #000000;
+	border-radius: 30px;
+	color: #fff;
+	width: 120px;
+	box-shadow: .2s;
+	padding: .5em 1em;
+}
+
+
+
+.banner{
+	margin: 40px auto;
+	padding: 140px 0 17px 30px;
+	display: block;
+	position: relative;
+
+}
+
+.title{
+
+	font-family: 'avenir', san-serif;
+  	font-size: 32px;
+
+}
+
+.quote {
+
+	border-left: 3px solid #ccc;
+	margin: 1.5em 10px;
+  	padding: 0.5em 10px;
+  	width: 475px;
+  	font-family: 'avenir', san-serif;
+  	font-size: 16px;
+
+}
+
+
+.hero_img{
+
+	display: inline;
+	float: right;
+	position:relative;
+	clear: left;
+	right: 40px auto;
+	bottom: 200px;
+	z-index: -1;
+	padding-right: 32px;
+
+}
+
+.scroll {
+
+	position: absolute;
+	left: 50%;
+	margin: 0;
+	z-index: 1;
+	padding-top: 15em;
+
+}
+
+
+
+
+
+
