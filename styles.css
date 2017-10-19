@@ -90,6 +90,7 @@ nav ul {
 
 .hero_img {
 	display: none;
+	justify-content: flex-end;
 }
 
 .scroll {
@@ -100,7 +101,7 @@ nav ul {
 }
 
 @media (min-width: 480px) {
-
+		
 		.flex-container {
 
 			display: flex;
