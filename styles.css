@@ -1,70 +1,66 @@
-body {
-	background: #F9FAFD;
-	margin: 32px auto;
-	padding: 32px;
+
+
+* {
+	font-family: 'avenir', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: #4c4c4c;
+	margin: 10px;
+	font-weight:normal;
 
 }
 
-a {
-	font-family: 'avenir', san-serif;
-	font-size: 1em;
-	color: #4C4C4C;
-}
+.flex-container {
 
-.header{
-	padding: 32px;
-	display: inline;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+
 
 }
 
 .logo {
+	padding-top: 20px;
 
-	font-family: 'avenir', san-serif;
-	display: inline;
-}
-
-.logo a{
-	text-decoration: none;
-	margin:0 auto;
-}
-
-.nav{
-		
-}
-
-nav li{
-
-	display: inline;
-	padding: 16px;
-	position: relative;
-	list-style: none;
+	
 
 }
 
-nav li a{
-	text-decoration: none;
-	font-family: 'avenir', san-serif;
+nav li {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 1em;
+
 }
 
 
-.primary_btn{
+nav ul {
+	padding: 0;
+	margin:0;
 
-	text-decoration: none;
-	font-family: 'avenir', san-serif;
-	font-size: 16px;
+}
+
+.primary_btn {
+
 	background-color: #000000;
+	width: 100%;
+	height: 40px;
 	border-radius: 30px;
-	color: #fff;
-	width: 120px;
-	box-shadow: .2s;
-	padding: .5em 1em;
+	background-color: #000000;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+
 }
-
-
 
 .banner{
-	margin: 40px auto;
-	padding: 140px 0 17px 30px;
+	margin: 20px auto;
+	padding:40px 0 17px 30px;
 	display: block;
 	position: relative;
 
@@ -73,7 +69,7 @@ nav li a{
 .title{
 
 	font-family: 'avenir', san-serif;
-  	font-size: 32px;
+  	font-size: 2em;
 
 }
 
@@ -88,32 +84,66 @@ nav li a{
 
 }
 
-
-.hero_img{
-
-	display: inline;
-	float: right;
-	position:relative;
-	clear: left;
-	right: 40px auto;
-	bottom: 200px;
-	z-index: -1;
-	padding-right: 32px;
-
+.hero_img {
+	display: none;
 }
 
 .scroll {
-
-	position: absolute;
-	left: 50%;
+	justify-content: center;
 	margin: 0;
-	z-index: 1;
-	padding-top: 15em;
+	padding-left: 0;
 
 }
 
+@media (min-width: 480px) {
+			
+		.hero_img {
+			display: block;
+		}
 
+		.primary_btn {
 
+			background-color: #000000;
+			width: 120px;
+			height: 40px;
+			border-radius: 30px;
+			background-color: #000000;
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+			color: white;
+			padding: 5px;
+			text-align: center;
+			margin-top: 10px;
 
+		}
 
+		.flex-container {
 
+			display: flex;
+			margin: 0;
+			padding: 0;
+			padding-left: 20px;
+			align-items: baseline;
+			flex-direction: row;
+
+		}
+
+		.nav-item{
+			justify-content: flex-start;
+			font-weight: bold;
+
+		}
+
+		.nav-menu {
+			justify-content: flex-end;
+			flex-direction: row;
+			width: 100%;
+		}
+
+		.scroll {
+			align-items: center;
+			margin: 0;
+			padding-left: 0;
+		}
+	
+
+}
