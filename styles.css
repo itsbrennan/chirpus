@@ -65,9 +65,6 @@ nav ul {
 .banner{
 	margin: 20px auto;
 	padding:40px 0 17px 30px;
-	display: block;
-	position: relative;
-
 }
 
 .title{
@@ -82,7 +79,8 @@ nav ul {
 	border-left: 3px solid #ccc;
 	margin: 1.5em 10px;
   	padding: 0.5em 10px;
-  	width: 475px;
+  	width: 50%;
+  	height: 30%;
   	font-family: 'avenir', san-serif;
   	font-size: 16px;
 
@@ -90,7 +88,7 @@ nav ul {
 
 .hero_img {
 	display: none;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 .scroll {
