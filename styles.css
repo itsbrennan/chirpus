@@ -18,13 +18,12 @@
 	padding: 0;
 	padding-left: 20px;
 
-
 }
 
 .logo {
-	padding-top: 20px;
-
-	
+	padding-top: 50px;
+	display: flex;
+	justify-content: flex-start;
 
 }
 
@@ -109,7 +108,6 @@ nav ul {
 
 		font-family: 'avenir', san-serif;
   		font-size: 2em;
-  		flex-direction: column;
 
 }
 		.hero_img {
